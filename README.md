@@ -2,6 +2,38 @@
 
 DataStax Astra simplifies cloud-native Cassandra application development. It reduces deployment time from weeks to minutes, removing the biggest obstacle to using Cassandra, which is behind many of the most heavily used applications in the world. To see Astra in action, watch our demo and hear about how Expero migrated to Astra!
 
+
+apache cassandra is nosql distributed database
+
+node communications = gossiping
+
+futures: big data ready, HA,High performance
+
+
+RF=3, replication factor 3 means that every row is stored on 3 diff nodes across regions
+
+
+keyspace is group of tables
+
+partition,,a group of rows having same value (same partition token, a base unit of access in cassandra)
+
+stored together, all the rows are guaranteed to be neighbours
+
+
+keyspace
+
+tables
+
+colums and rows 
+
+partitions
+
+partition key
+-------
+
+
+clustering columns, used to ensure uniqueness and sorting order 
+
 Create your own tables on Astra
 Example tables that we used in the workshop:
 
